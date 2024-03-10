@@ -159,13 +159,13 @@ main article#menu h1 {
 main article#menu .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 1rem;
+  padding: 2rem;
 }
 main article#menu .card-container .card-wrapper {
-  width: 20%;
   padding: 2rem;
-  flex-basis: 300px;
+  flex-basis: 400px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -235,7 +235,7 @@ footer p a {
     width: 100%;
   }
   main article#menu .card-container .card-wrapper img {
-    width: 300px;
+    width: 250px;
   }
 }
 
