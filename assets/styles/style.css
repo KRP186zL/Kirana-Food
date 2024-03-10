@@ -211,7 +211,7 @@ footer p a {
   }
   /* Content-Home */
   main article#home aside {
-    margin-top: 10px;
+    margin-top: 25px;
   }
   /* Content-Menu */
   main article#menu {
@@ -230,7 +230,7 @@ footer p a {
 
 @media screen and (max-width: 768px) {
   main article#menu {
-    margin-top: 30px;
+    margin-top: -85px;
   }
   /* Content-Menu */
   main article#menu .card-container .card-wrapper {
