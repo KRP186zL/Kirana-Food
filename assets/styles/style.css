@@ -174,7 +174,7 @@ main article#menu .card-container .card-wrapper {
 }
 main article#menu .card-container .card-wrapper img {
   height: 200px;
-  width: 300px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -233,6 +233,9 @@ footer p a {
   }
   main article#menu .card-container .card-wrapper {
     width: 100%;
+  }
+  main article#menu .card-container .card-wrapper img {
+    width: 300px;
   }
 }
 
