@@ -8,7 +8,6 @@ body {
   background-color: #f7e9e1;
   font-family: "Quicksand", sans-serif;
   font-size: 1.04em;
-  /* max-width: 1000px; */
 }
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -139,7 +138,7 @@ main article#home aside .koki {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 20%;
+  border-bottom-left-radius: 5%;
   overflow: hidden;
 }
 main article#home aside .koki img {
@@ -193,7 +192,6 @@ footer p {
   padding: 1.5em;
 }
 footer p a {
-  /* text-decoration: none; */
   color: #8aa848;
 }
 
@@ -217,6 +215,9 @@ footer p a {
   /* Content-Home */
   main article#home aside {
     margin-top: 25px;
+  }
+  main article#home aside .koki {
+    border-radius: 15%;
   }
   /* Content-Menu */
   main article#menu {
