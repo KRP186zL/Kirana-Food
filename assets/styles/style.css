@@ -149,10 +149,11 @@ main article#home aside .koki img {
 /* Content-Menu */
 
 main article#menu h1 {
-  font-family: "Unica One", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #8aa848;
   text-align: center;
   padding: 20px;
+  text-shadow: 1px 2px 2px #8aa848;
   font-size: clamp(1.5rem, -1rem + 6.25vw, 3rem);
 }
 /* Content-Menu Card */
